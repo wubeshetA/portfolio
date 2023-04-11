@@ -33,7 +33,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide text-justify text-last-center">
-          I am a computer enthusiast currently pursuing Software Engineering at African Leadership Univeristy and learning be a Servant Leader. I am passionate about building scalable and efficient software solutions. BTW, I consider myself as an introvert, but I love a deep and meaningful conversation with one person at a time.
+          I am a computer enthusiast currently pursuing Software Engineering at African Leadership Univeristy and learning to become a Servant Leader. I am passionate about building scalable and efficient software solutions. BTW, I consider myself as an introvert, but I love a deep and meaningful conversation with one person at a time.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

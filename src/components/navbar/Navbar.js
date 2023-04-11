@@ -1,11 +1,18 @@
 import React from "react";
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
 import { navLinksdata } from "../../constants";
 const Navbar = () => {
   return (
-    <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont">
+    <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont backdrop-blur-sm bg-opacity-95">
       <div>
-        <h1 className="">WUBE.</h1>
+        <a href="">
+
+        <h3 className="md:text-1xl">
+          <span className="text-designColor ">{"<"}</span>
+          WUBE
+          <span className="text-designColor">{"/>"}</span>
+        </h3>
+        </a>
       </div>
       <div>
         <ul className="flex items-center gap-10">
