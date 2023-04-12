@@ -48,7 +48,6 @@ const About = () => {
           <span className="cursor" customStyle={{}}>
             |
           </span>
-
         </SyntaxHighlighter>
       </div>
     </section>
