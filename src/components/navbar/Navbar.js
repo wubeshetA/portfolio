@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont backdrop-blur-sm bg-opacity-95">
       <div>
-        <a href="">
+        <a href="#">
 
-        <h3 className="md:text-1xl">
-          <span className="text-designColor ">{"<"}</span>
+        <h3 className="md:text-1xl font-bold">
+          <span className="text-designColor">{"</ "}</span>
           WUBE
-          <span className="text-designColor">{"/>"}</span>
+          <span className="text-designColor">{" >"}</span>
         </h3>
         </a>
       </div>

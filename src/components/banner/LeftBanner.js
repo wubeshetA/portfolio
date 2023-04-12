@@ -8,7 +8,6 @@ const LeftBanner = () => {
       "Software Engineer.",
       "Cloud Developer.",
       "Creative.",
-      "Diligent.",
       "Servant Leader.",
       "Brother.",
     ],
@@ -20,12 +19,18 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">Hello World!</h4>
+        <h4 className=" text-lg font-normal">
+          Hello World!
+          <span role="img" aria-label="Waving Hand Emoji">
+            {" "}
+            &#x1F44B;
+          </span>
+        </h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Wubeshet</span>
+          Wubeshet Yimam <span className="text-designColor capitalize"></span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+        <h2 className="text-4xl font-bold text-designColor ">
+          a <span className="uppercase">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -33,7 +38,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide text-justify text-last-center">
-          I am a computer enthusiast currently pursuing Software Engineering at African Leadership Univeristy and learning to become a Servant Leader. I am passionate about building scalable and efficient software solutions. BTW, I consider myself as an introvert, but I love a deep and meaningful conversation with one person at a time.
+          I am a computer enthusiast currently pursuing Software Engineering at
+          African Leadership Univeristy and learning to become a Servant Leader.
+          I am passionate about building scalable and efficient software
+          solutions. BTW, I consider myself as an introvert, but I love a deep
+          and meaningful conversation with one person at a time.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -56,7 +65,7 @@ const LeftBanner = () => {
 
             <span className="bannerIcon">
               <a href="https://www.instagram.com/wubeshet.y" rel="noreferrer">
-              <FaInstagram />
+                <FaInstagram />
               </a>
             </span>
           </div>
