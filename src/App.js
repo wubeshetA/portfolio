@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import About from "./components/about/About";
 import Projects from "./projects.js/Projects";
+import Resume from "./components/resume/Resume";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Banner />
         <About />
         <Projects/>
+        <Resume />
       </div>
     </div>
   );

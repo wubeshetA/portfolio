@@ -21,14 +21,7 @@ const Projects = () => {
           github_link={"http://github.com/wubeshetA"}
           web_link={"http://localhost:5000"}
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          github_link={"http://github.com/wubeshetA"}
-          web_link={"http://localhost:5000"}
-        />
+        
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.

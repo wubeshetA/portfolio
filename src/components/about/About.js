@@ -37,7 +37,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-[800px] pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-col items-center border-b-[0px] font-titleFont border-b-black "
+      className="w-full h-[800px] pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-col items-center border-b-[1px] font-titleFont border-b-black "
     >
       <Title title="" des="Who am I?" />
       <div className="p-3 rounded-md shadow-shadowOne">
