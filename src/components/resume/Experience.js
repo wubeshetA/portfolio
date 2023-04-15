@@ -7,19 +7,19 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="py-12 font-titleFont flex gap-20 w-1/2"
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p> */}
+          {/* <h2 className="text-4xl font-bold">Job Experience</h2> */}
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="SAT Teacher"
+            subTitle="Bridge2Rwanda - (Jun 2022 - Sept 2022)"
+            result="Rwanda"
+            des="Assisted Bridge2Rwanda scholars to improve their SAT results by 12% on average at ISOMO Bootcamp."
           />
           <ResumeCard
             title="Web Developer & Trainer"
@@ -27,14 +27,16 @@ const Experience = () => {
             result="MALAYSIA"
             des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Front-end Developer"
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          /> */}
         </div>
       </div>
+
+{/*       
       <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
@@ -60,7 +62,7 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
