@@ -82,7 +82,7 @@ const Contact = () => {
                     name="username"
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
-                    className={`bg-bodyColor ${
+                    className={`bg-black bg-opacity-10 ${
                       errMsg === "Username is required!" &&
                       "outline-designColor"
                     } contactInput`}
@@ -97,7 +97,7 @@ const Contact = () => {
                     name="phoneNumber"
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
-                    className={` bg-bodyColor  ${
+                    className={` bg-black bg-opacity-10  ${
                       errMsg === "Phone number is required!" &&
                       "outline-designColor"
                     } contactInput`}
@@ -113,7 +113,7 @@ const Contact = () => {
                   name="email"
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
-                  className={`bg-bodyColor  ${
+                  className={`bg-black bg-opacity-10  ${
                     errMsg === "Please give your Email!" &&
                     "outline-designColor"
                   } contactInput`}
@@ -128,7 +128,7 @@ const Contact = () => {
                   name="subject"
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
-                  className={`bg-bodyColor ${
+                  className={`bg-black bg-opacity-10 ${
                     errMsg === "Plese give your Subject!" &&
                     "outline-designColor"
                   } contactInput`}
@@ -143,7 +143,7 @@ const Contact = () => {
                   name="message"
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
-                  className={`bg-bodyColor ${
+                  className={`bg-black bg-opacity-10 ${
                     errMsg === "Message is required!" && "outline-designColor"
                   } contactTextArea`}
                   cols="30"
