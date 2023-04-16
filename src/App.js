@@ -4,6 +4,7 @@ import Banner from "./components/banner/Banner";
 import About from "./components/about/About";
 import Projects from "./projects/Projects";
 import Resume from "./components/resume/Resume";
+import Contact from "./components/contact/Contact"
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <About />
-        <Projects/>
         <Resume />
+        <Projects/>
+        <Contact/>
       </div>
     </div>
   );
