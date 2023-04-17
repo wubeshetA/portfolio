@@ -1,0 +1,21 @@
+.waving-emoji {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(10deg); }
+    20% { transform: rotate(-10deg); }
+    30% { transform: rotate(12deg); }
+    40% { transform: rotate(-12deg); }
+    50% { transform: rotate(14deg); }
+    60% { transform: rotate(-14deg); }
+    70% { transform: rotate(16deg); }
+    80% { transform: rotate(-16deg); }
+    90% { transform: rotate(18deg); }
+    100% { transform: rotate(0deg); } /* Always return to natural position */
+  }

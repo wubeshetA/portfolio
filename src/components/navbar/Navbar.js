@@ -97,7 +97,7 @@ const Navbar = () => {
                       <MdClose />
                     </span>
                   </div>
-                  <ul className="flex flex-col gap-8 justify-around pr-4 ">
+                  <ul className="flex flex-col gap-8 justify-around pr-10 mx-10 ">
                     {navLinksdata.map((item) => (
                       <li
                         key={item._id}

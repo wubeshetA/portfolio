@@ -49,7 +49,7 @@ const About = () => {
     <section
       ref={sectionRef} // set the ref to the section element
       id="about"
-      className="w-full h-[800px] pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-col items-center border-b-[1px] font-titleFont border-b-black "
+      className="w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-col items-center border-b-[1px] font-titleFont border-b-black "
     >
       {/* sm: "375px",
           sml: "500px",

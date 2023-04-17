@@ -1,6 +1,8 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+// load the waiving.css file
+import "./waiving.css";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -23,15 +25,20 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">
           Hello World!
-          <span role="img" aria-label="Waving Hand Emoji">
+          <span
+            className="text-4xl waving-emoji"
+            role="img"
+            aria-label="Waving Hand Emoji"
+          >
             {" "}
             &#x1F44B;
           </span>
         </h4>
-        <h1 className="text-4xl md:text-5xl lgl:text-6xl  font-bold text-white">
+<h1 className="text-4xl md:text-5xl lgl:text-6xl  font-bold text-white">
           Wubeshet Yimam <span className="text-designColor capitalize"></span>
         </h1>
-        <h2 className="text-2xl md:text-4xl lgl:text-5xl font-bold text-designColor ">
+
+        <h2 className="text-2xl md:text-4xl lgl:text-4xl font-bold text-designColor ">
           a <span className="uppercase">{text}</span>
           <Cursor
             cursorBlinking="false"
