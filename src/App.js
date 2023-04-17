@@ -6,6 +6,7 @@ import Projects from "./projects/Projects";
 import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import ScrollUpButton from "./components/ScrollUpButton";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
+        <ScrollUpButton />
       </div>
     </div>
   );
