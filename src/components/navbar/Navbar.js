@@ -9,9 +9,25 @@ import { motion, AnimatePresence } from "framer-motion";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  // const menuRef = useRef(null);
+
+  // useEffect(() => {
+  //   const handleClickOutside = (event) => {
+  //     if (menuRef.current && !menuRef.current.contains(event.target)) {
+  //       setShowMenu(false);
+  //     }
+  //   };
+
+  //   document.addEventListener("mousedown", handleClickOutside);
+
+  //   return () => {
+  //     document.removeEventListener("mousedown", handleClickOutside);
+  //   };
+  // }, [menuRef]);
+
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 opacity-95">
+      <div className="pl-4">
         <a href="http://localhost:3000">
           {" "}
           <h3 className="md:text-2xl ">
@@ -21,7 +37,7 @@ const Navbar = () => {
           </h3>{" "}
         </a>
       </div>
-      <div>
+      <div className="pr-4">
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
@@ -44,7 +60,7 @@ const Navbar = () => {
 
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer "
         >
           <FiMenu />
         </span>
@@ -79,11 +95,9 @@ const Navbar = () => {
                       className="text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
                     >
                       <MdClose />
-
                     </span>
-
                   </div>
-                  <ul className="flex flex-col gap-8 justify-around">
+                  <ul className="flex flex-col gap-8 justify-around pr-4 ">
                     {navLinksdata.map((item) => (
                       <li
                         key={item._id}
@@ -104,7 +118,7 @@ const Navbar = () => {
                     ))}
                   </ul>
 
-                  <div>
+                  <div className="pb-10">
                     <h2 className="text-base uppercase font-titleFont mb-4">
                       Find me on
                     </h2>
