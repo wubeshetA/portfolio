@@ -6,22 +6,13 @@ import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 // import the cursor style in this directory
 import "./cursor.css";
+import { CodeInfo } from "./CodeInfo";
 const About = () => {
   const [code, setCode] = useState("");
   const [cursorVisible, setCursorVisible] = useState(true);
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    const personCode = `"""This is a class that defines a person"""
-    class Person:
-        def __init__(self):
-            # intialize person
-            self.name = "Wubeshet Anegagrie Yimam"
-            self.age = 22
-            self.nationality = "Ethiopian"
-            self.hobbies = ["coding", "painting", "cooking"]
-            `;
-
     let i = 0;
     let intervalId = null;
 
@@ -31,10 +22,10 @@ const About = () => {
         if (entry.isIntersecting) {
           // start the typing animation when the section is visible
           intervalId = setInterval(() => {
-            setCode(personCode.substring(0, i) + (cursorVisible ? "|" : ""));
+            setCode(CodeInfo.substring(0, i) + (cursorVisible ? "|" : ""));
             setCursorVisible(!cursorVisible);
             i++;
-            if (i > personCode.length) {
+            if (i > CodeInfo.length) {
               clearInterval(intervalId);
             }
           }, 20);

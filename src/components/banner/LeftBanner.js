@@ -7,8 +7,10 @@ const LeftBanner = () => {
     words: [
       "Software Engineer.",
       "Cloud Developer.",
+      "DevOps Enthusiast.",
       "Creative.",
       "Servant Leader.",
+      "Son.",
       "Brother.",
     ],
     loop: true,
@@ -26,10 +28,10 @@ const LeftBanner = () => {
             &#x1F44B;
           </span>
         </h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-4xl md:text-5xl lgl:text-6xl  font-bold text-white">
           Wubeshet Yimam <span className="text-designColor capitalize"></span>
         </h1>
-        <h2 className="text-4xl font-bold text-designColor ">
+        <h2 className="text-2xl md:text-4xl lgl:text-5xl font-bold text-designColor ">
           a <span className="uppercase">{text}</span>
           <Cursor
             cursorBlinking="false"
