@@ -19,12 +19,12 @@ function ProjectsCard({ title, des, src, github_link, web_link }) {
 
         <div className="absolute flex flex-col justify-center text-center items-center -bottom-full group-hover:bottom-4 transition-all duration-500 z-50">
           <div className="flex gap-7">
-            <a href={github_link} target="_blank">
+            <a href={github_link}>
               <div>
                 <FaGithub className="text-xl hover:text-designColor mb-2" />
               </div>
             </a>
-            <a href={web_link} target="_blank">
+            <a href={web_link}>
               <div>
                 <TbWorld className="text-xl hover:text-designColor mb-2" />
               </div>

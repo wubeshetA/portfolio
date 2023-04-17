@@ -39,8 +39,12 @@ const About = () => {
       id="about"
       className="w-full h-[800px] pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-col items-center border-b-[1px] font-titleFont border-b-black "
     >
+
+{/* sm: "375px",
+        sml: "500px",
+        md: "667px" */}
       <Title title="" des="Who am I?" />
-      <div className="p-3 rounded-md shadow-shadowOne">
+      <div className="w-full lgl:w-2/3 xl:w-1/2 p-1 rounded-md shadow-shadowOne">
         <p className="px-2">wube_info.py</p>
 
         <SyntaxHighlighter showLineNumbers language="python" style={nightOwl}>

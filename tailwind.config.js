@@ -28,6 +28,8 @@ module.exports = {
       boxShadow: {
         shadowOne: "0px 0px 15px #20304f, 0px 0px 15px #20304f",
       },
+
+      
     },
   },
   plugins: [],

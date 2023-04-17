@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { skillsData } from "../../constants";
 // from react-icons
-import { FaHtml5 } from "react-icons/fa";
+// import { FaHtml5 } from "react-icons/fa";
 const Skills = () => {
   return (
     <motion.div

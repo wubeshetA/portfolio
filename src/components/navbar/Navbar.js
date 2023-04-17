@@ -8,10 +8,11 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <a href="#">
+        <a href="http://localhost:3000">
           {" "}
           <h3 className="md:text-2xl ">
             <span className="">{"</"}</span>{" "}
@@ -50,18 +51,18 @@ const Navbar = () => {
         <AnimatePresence>
           {showMenu && (
             <motion.div
-              className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide"
+              className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide shadow-shadowOne"
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
               exit={{ x: "-100%" }}
               transition={{ type: "tween" }}
             >
-              <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
-                <div className="flex flex-col gap-8 py-5 relative">
-                  <div>
+              <div className="w-full flex backdrop-brightness-0 h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 scrollbar-hide px-4">
+                <div className="flex flex-col justify-between gap-8 relative w-full">
+                  <div className="flex justify-between w-full border-b-[1px] border-b-gray-600 h-24 top-0 items-center">
                     {/* <img className="w-32" src={logo} alt="logo" /> */}
 
-                    <a href="#" className="border-b-[1px] border-b-black">
+                    <a href="#" className="">
                       {" "}
                       <h3 className="md:text-2xl ">
                         <span className="">{"</"}</span>{" "}
@@ -71,9 +72,18 @@ const Navbar = () => {
                         <span className="">{">"}</span>{" "}
                       </h3>{" "}
                     </a>
-                    <p className="text-sm text-gray-400 mt-2"></p>
+                    {/* <p className="text-sm text-gray-400 mt-2"></p> */}
+
+                    <span
+                      onClick={() => setShowMenu(false)}
+                      className="text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+                    >
+                      <MdClose />
+
+                    </span>
+
                   </div>
-                  <ul className="flex flex-col gap-4">
+                  <ul className="flex flex-col gap-8 justify-around">
                     {navLinksdata.map((item) => (
                       <li
                         key={item._id}
@@ -128,12 +138,12 @@ const Navbar = () => {
                     </div>
                   </div>
 
-                  <span
+                  {/* <span
                     onClick={() => setShowMenu(false)}
-                    className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+                    className="absolute top-6 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
                   >
                     <MdClose />
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </motion.div>
