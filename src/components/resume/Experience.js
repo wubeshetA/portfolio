@@ -22,17 +22,18 @@ const Experience = () => {
             des="Assisted Bridge2Rwanda scholars to improve their SAT results by 12% on average at ISOMO Bootcamp."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="BreakIntoTech club Mentor & committee"
+            subTitle="African Leadership University - (Jan 2023 - present)"
+            result="Rwanda"
+            des="Mentor and committee member for the BreakIntoTech club at ALU. The club aims to help students learn about the tech industry and prepare them for internships and jobs."
+            
           />
-          {/* <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          /> */}
+          <ResumeCard
+            title="COMING SOON"
+            subTitle=""
+            result=""
+            des=""
+          />
         </div>
       </div>
 
