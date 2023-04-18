@@ -7,7 +7,7 @@ import { TbWorld } from "react-icons/tb";
 function ProjectsCard({ title, des, src, github_link, web_link }) {
   return (
    
-      <div className="flex justify-center group relative overflow-hidden rounded-xl shadow-shadowOne">
+      <div className="flex justify-center group relative overflow-hidden rounded-xl shadow-shadowOne lgl:w-1/3 sm:w-full gap-10">
         {/* image overlay */}
         <div className="group-hover:bg-bodyColor/90 w-full h-full absolute z-40 transition-all duration-300"></div>
         {/* img */}
@@ -33,7 +33,7 @@ function ProjectsCard({ title, des, src, github_link, web_link }) {
           <div></div>
         </div>
 
-        <div className="absolute w-80  flex flex-col justify-center text-center  -bottom-full group-hover:bottom-20 transition-all duration-700 z-50">
+        <div className="absolute w-80 flex flex-col justify-center text-center  -bottom-full group-hover:bottom-20 transition-all duration-700 z-50">
           <h1 className="text-2xl font-bold text-designColor mb-2">{title}</h1>
           <p className="mb-2">{des}</p>
         </div>

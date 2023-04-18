@@ -26,7 +26,6 @@ const Experience = () => {
             subTitle="African Leadership University - (Jan 2023 - present)"
             result="Rwanda"
             des="Mentor and committee member for the BreakIntoTech club at ALU. The club aims to help students learn about the tech industry and prepare them for internships and jobs."
-            
           />
           <ResumeCard
             title="COMING SOON"

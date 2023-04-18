@@ -67,7 +67,7 @@ const Navbar = () => {
         <AnimatePresence>
           {showMenu && (
             <motion.div
-              className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide shadow-shadowOne"
+              className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide shadow-shadowOne z-50"
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
               exit={{ x: "-100%" }}
