@@ -34,7 +34,7 @@ const LeftBanner = () => {
             &#x1F44B;
           </span>
         </h4>
-<h1 className="text-4xl md:text-5xl lgl:text-6xl  font-bold text-white">
+        <h1 className="text-4xl md:text-5xl lgl:text-6xl  font-bold text-white">
           Wubeshet Yimam <span className="text-designColor capitalize"></span>
         </h1>
 
@@ -48,8 +48,8 @@ const LeftBanner = () => {
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide text-justify text-last-center">
           I am a computer enthusiast currently pursuing Software Engineering at
-          African Leadership Univeristy and learning to become a Servant Leader.
-          I am passionate about building scalable and efficient software
+          The African Leadership Univeristy and learning to become a Servant
+          Leader. I am passionate about building scalable and efficient software
           solutions. BTW, I consider myself as an introvert, but I love a deep
           and meaningful conversation with one person at a time.
         </p>
