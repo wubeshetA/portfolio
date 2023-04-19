@@ -126,7 +126,7 @@ const Project = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-full lgl:w-[55%] flex flex-col justify-center mr-4">
+                <div className="w-full h-full lgl:w-[55%] flex flex-col justify-center mr-4 mt-2 pt-4">
                   {/* <img className="w-20 lgl:w-32 m:hidden sm:hidden" src={quote} alt="quote" /> */}
                   <div className="w-full h-[60%] py-10  rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                     <div className="flex flex-col md:flex-row justify-between">
