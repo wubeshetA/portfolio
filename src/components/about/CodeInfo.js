@@ -4,7 +4,7 @@ export const CodeInfo = `#!/usr/bin/env python3
 class Wubeshet(Asnka, Anegagrie):
     """Trying to create a copy of 'myself'... I mean my metadata :)"""
     def __init__(self):
-        """Create self and inherit characters 
+        """Create self and inherit characters
         from parent objects..oops they are humans not objects :)"""
         # wondering what Asnka and Anegagrie are?
         # have a look at the following two lines

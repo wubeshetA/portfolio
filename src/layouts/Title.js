@@ -7,7 +7,7 @@ const Title = ({title, des, optional=""}) => {
        {title}
       </h3>
       <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize">{des}</h1>
-      <a href='../../src/assets/wubeshet_Software_engineer_intern_resume.pdf' download>{optional}</a>
+      <a href='/resume.pdf'>{optional}</a>
     </div>
   );
 }

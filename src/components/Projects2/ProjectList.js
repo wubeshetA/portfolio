@@ -1,4 +1,4 @@
-import { projectOne, projectThree, projectTwo } from "../../assets/index";
+import { projectOne, projectThree, projectTwo, projectFour } from "../../assets/index";
 export const projectList = [
   {
     _id: 1001,
@@ -42,7 +42,7 @@ export const projectList = [
   {
     _id: 1004,
     title: "Portfolio Website",
-    img: projectThree,
+    img: projectFour,
     category: "Web Developement",
     date: "March 2023",
     live_link: "",

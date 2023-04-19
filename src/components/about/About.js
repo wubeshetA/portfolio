@@ -56,9 +56,9 @@ const About = () => {
           md: "667px" */}
       <Title title="" des="Who am I?" />
       <div className="w-full lgl:w-2/3 xl:w-2/3 p-1 rounded-md shadow-shadowOne">
-        <p className="px-2">wube_info.py</p>
+        <p className="px-2">wubeshet_info.py</p>
 
-        <SyntaxHighlighter showLineNumbers language="python" style={nightOwl}>
+        <SyntaxHighlighter showLineNumbers language="python" style={nightOwl} >
           {code}
           <span className="cursor" customStyle={{}}>
             |

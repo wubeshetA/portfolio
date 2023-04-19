@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 import { HiArrowRight } from "react-icons/hi";
 
-const Card = ({title,des,icon}) => {
+const Card = ({ title, des, icon }) => {
   return (
     <div className="w-full px-12 py-10 rounded-lg shadow-shadowOne flex items-start  group  transition-colors duration-100 group">
       <div className=" overflow-y-hidden">
         <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
-        
             {icon ? (
               <span className="text-5xl text-designColor">{icon}</span>
             ) : (
@@ -32,6 +31,6 @@ const Card = ({title,des,icon}) => {
       </div>
     </div>
   );
-}
+};
 
-export default Card
+export default Card;
