@@ -15,6 +15,7 @@ import {
   SiMysql,
   SiPostgresql,
 } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 
 // python, nodejs, linux, html5, tailwindcss, reactjs, postgresql, mysql, flask, git, docker, kubernetes, aws, serverless framework, Figma
 // industry knowledge - agile,
@@ -28,6 +29,13 @@ export const navLinksdata = [
     _id: 1002,
     title: "About",
     link: "about",
+  },
+
+  
+  {
+    _id: 1002,
+    title: "Services",
+    link: "services",
   },
 
   {
@@ -64,6 +72,12 @@ export const skillsData = [
     icon: <FaJs className="text-5xl text-designColor" />,
   },
   {
+    _id: 2016,
+    title: "SQL",
+    percentage: "80%",
+    icon: <TbSql className="text-5xl text-designColor" />,
+  },
+  {
     _id: 2003,
     title: "Linux",
     percentage: "75%",
@@ -71,15 +85,9 @@ export const skillsData = [
   },
   {
     _id: 2004,
-    title: "HTML5",
+    title: "HTML5/CSS3",
     percentage: "90%",
     icon: <FaHtml5 className="text-5xl text-designColor" />,
-  },
-  {
-    _id: 2005,
-    title: "CSS",
-    percentage: "65%",
-    icon: <FaCss3Alt className="text-5xl text-designColor" />,
   },
   {
     _id: 2006,
@@ -140,7 +148,7 @@ export const skillsData = [
   {
     _id: 2015,
     title: "Flutter",
-    percentage: "60%",
+    percentage: "65%",
     icon: <SiFlutter className="text-5xl text-designColor" />,
   },
 ];
