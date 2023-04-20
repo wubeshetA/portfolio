@@ -5,7 +5,6 @@ import { FaGit } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import {

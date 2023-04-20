@@ -9,7 +9,7 @@ import "./cursor.css";
 import { CodeInfo } from "./CodeInfo";
 const About = () => {
   const [code, setCode] = useState("");
-  const [cursorVisible, setCursorVisible] = useState(true);
+  // const [cursorVisible, setCursorVisible] = useState(true);
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -22,8 +22,8 @@ const About = () => {
         if (entry.isIntersecting) {
           // start the typing animation when the section is visible
           intervalId = setInterval(() => {
-            setCode(CodeInfo.substring(0, i) + (cursorVisible ? "|" : ""));
-            setCursorVisible(!cursorVisible);
+            setCode(CodeInfo.substring(0, i) + ("|" ));
+            // setCursorVisible(!cursorVisible);
             i++;
             if (i > CodeInfo.length) {
               clearInterval(intervalId);
