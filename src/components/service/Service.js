@@ -1,12 +1,12 @@
 import React from "react";
 import { FiServer } from "react-icons/fi";
 import { TbCloudComputing } from "react-icons/tb";
-import { SiAntdesign,  } from "react-icons/si";
+import { SiAntdesign } from "react-icons/si";
 import Title from "../../layouts/Title";
 import Card from "./ServiceCard";
 import { AiOutlineMobile } from "react-icons/ai";
-import {BsDatabase} from "react-icons/bs";
-import {BiChip} from "react-icons/bi";
+import { BsDatabase } from "react-icons/bs";
+import { BiChip } from "react-icons/bi";
 const Services = () => {
   return (
     <section
@@ -40,7 +40,7 @@ const Services = () => {
         />
         <Card
           title="Data Analysis"
-          des="With my strong background in python, SQL and math, I love playing with large amout of data and extract meaningful insights from it."
+          des="With my strong background in python, SQL and math, I love playing with large amount of data and extract meaningful insights from it."
           icon={<BsDatabase />}
         />
         <Card
