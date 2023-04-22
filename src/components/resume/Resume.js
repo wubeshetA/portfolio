@@ -14,7 +14,7 @@ const Resume = () => {
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="">
         <div className="flex justify-center items-center text-center">
-          <Title title="" des="Resume" optional="Download PDF"/>
+          <Title title="" des="Resume" optional=""/>
           
         </div>
       </div>
