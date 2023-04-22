@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 opacity-95">
       <div className="pl-4">
-        <a href="http://localhost:3000">
+        <a href="wubeshet.me">
           {" "}
           <h3 className="md:text-2xl ">
             <span className="">{"</"}</span>{" "}
@@ -78,7 +78,7 @@ const Navbar = () => {
                   <div className="flex justify-between w-full border-b-[1px] border-b-gray-600 h-24 top-0 items-center">
                     {/* <img className="w-32" src={logo} alt="logo" /> */}
 
-                    <a href="#" className="">
+                    <a href="wubeshet.me" className="">
                       {" "}
                       <h3 className="md:text-2xl ">
                         <span className="">{"</"}</span>{" "}
