@@ -15,7 +15,7 @@ class Wubeshet(Asnka, Anegagrie):
         super(Anegagrie, self).__init__() #inheriting deligent character from dad
         self.full_name = "Wubeshet Anegagrie Yimam"
         self.age = 22
-        self.marital_status = "Looking forward to ask out my crush :)"
+        self.marital_status = "Married with *.py :)"
         self.interest = ["Tech", "Entrepreneurship", "Leadership" "Learning"]
         self.values = ["Integrity", "Empathy", "Creativity", "Faith", "Love"]
         self.favorite_food = "Injera with spicy wot"
