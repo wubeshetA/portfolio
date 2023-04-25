@@ -21,35 +21,35 @@ import { TbSql } from "react-icons/tb";
 export const navLinksdata = [
   {
     _id: 1001,
-    title: "Home",
+    title: "000. Home",
     link: "home",
   },
   {
     _id: 1002,
-    title: "About",
+    title: "001. About",
     link: "about",
   },
 
   {
     _id: 1002,
-    title: "Services",
+    title: "010. Services",
     link: "services",
   },
 
   {
     _id: 1003,
-    title: "Projects",
+    title: "011. Projects",
     link: "projects",
   },
   {
     _id: 1004,
-    title: "Resume",
+    title: "100. Resume",
     link: "resume",
   },
 
   {
-    _id: 1006,
-    title: "Contact",
+    _id: 1005,
+    title: "101. Contact",
     link: "contact",
   },
 ];
