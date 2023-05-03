@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import ScrollUpButton from "./components/ScrollUpButton";
 import Project from "./components/Projects2/Projects";
 import Services from "./components/service/Service";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Contact />
         <Footer />
         <ScrollUpButton />
+
+        <Analytics />
       </div>
     </div>
   );
