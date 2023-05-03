@@ -22,7 +22,7 @@ export const projectList = [
     live_link: "",
     github_link: "https://github.com/ALU-Opportunity-Board/opportunity-board",
     description:
-      "ALU opportunities board is a platform that allows  African Leadership University students to post opprotunities that they have come across. It also allows students to view opprotunities posted by other students. It has google authentication which allows only ALU students to access the platform.",
+      "ALU opportunities board is a platform that allows  African Leadership University students and staff to post opportunities they have come across. It also allows students to view opprotunities posted by other students. It has google authentication which allows ALU students to access the platform.",
     tech: ["Python", "Postgres", "React"],
   },
 
