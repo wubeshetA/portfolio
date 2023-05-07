@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -15,6 +15,12 @@ const Experience = () => {
           {/* <h2 className="text-4xl font-bold">Job Experience</h2> */}
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+            title="Software Engineer Intern"
+            subTitle="SHEBA PLASTIC (May 2023 - Present)"
+            result="Rwanda (Hybrid)"
+            des="Currently working on building a database and API for a conservation startup called SHEBA PLASTIC. I will also be responsible in building a smart bins that will connect with a mobile app and used to collect plastic waste in Rwanda."
+          />
           <ResumeCard
             title="SAT Teacher"
             subTitle="Bridge2Rwanda - (Jun 2022 - Sept 2022)"
@@ -27,16 +33,11 @@ const Experience = () => {
             result="Rwanda"
             des="Mentor and committee member for the BreakIntoTech club at ALU. The club aims to help students learn about the tech industry and prepare them for internships and jobs."
           />
-          <ResumeCard
-            title="COMING SOON"
-            subTitle=""
-            result=""
-            des=""
-          />
+          
         </div>
       </div>
 
-{/*       
+      {/*       
       <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
