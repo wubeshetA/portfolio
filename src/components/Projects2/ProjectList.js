@@ -9,7 +9,7 @@ export const projectList = [
     live_link: "",
     github_link: "https://github.com/wubeshetA/alu-AirBnB_clone_V3",
     description:
-      "This project is a replica of how the back of AirBnb might looks like. It provides an adminstrative console to manage the backend and database for a website like AirBnb. Currently the frontend is under development which will allow users to create an account, login, logout, create a new place, update a place, delete a place, view all places, places by city, etc.",
+      "This project is a replica of how the backend of AirBnb might looks like. It provides an adminstrative console to manage the backend and database for a website like AirBnb. Currently the frontend is under development which will allow users to create an account, login, logout, create a new place, update a place, delete a place, view all places, places by city, etc.",
     tech: ["Python", "MySql"],
   },
 

@@ -7,12 +7,15 @@ import { FaAws } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+// import postman icons from "react
+
 import {
   SiFlask,
   SiFlutter,
   SiKubernetes,
   SiMysql,
   SiPostgresql,
+  SiPostman,
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 
@@ -117,6 +120,12 @@ export const skillsData = [
     percentage: "70%",
     icon: <FaGit className="text-5xl text-designColor" />,
   },
+  {
+    _id: 2013,
+    title: "Postman",
+    percentage: "90%",
+    icon: <SiPostman className="text-5xl text-designColor" />,
+  },
 
   {
     _id: 2011,
@@ -136,6 +145,7 @@ export const skillsData = [
     percentage: "60%",
     icon: <SiKubernetes className="text-5xl text-designColor" />,
   },
+  
   {
     _id: 2014,
     title: "Figma",
