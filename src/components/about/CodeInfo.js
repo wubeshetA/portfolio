@@ -29,7 +29,7 @@ class Wubeshet(Asnka, Anegagrie):
 
     def driver(self):
         # principle that self follows for moving forward
-        while not success:
+        while alive:
             try:
                 self.learn()
                 self.practice()
