@@ -19,7 +19,7 @@ export const projectList = [
     img: projectTwo,
     category: "Fullstack development",
     date: "Mar - Apr 2023",
-    live_link: "",
+    live_link: "https://drive.google.com/file/d/1D914g0HxjDLMQM0KmBGRbfIxjBf69rZj/view?usp=share_link",
     github_link: "https://github.com/ALU-Opportunity-Board/opportunity-board",
     description:
       "ALU opportunities board is a platform that allows  African Leadership University students and staff to post opportunities they have come across. It also allows students to view opprotunities posted by other students. It has google authentication which allows ALU students to access the platform.",
