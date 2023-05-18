@@ -16,6 +16,7 @@ import {
   SiMysql,
   SiPostgresql,
   SiPostman,
+  SiDjango
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 
@@ -113,6 +114,12 @@ export const skillsData = [
     title: "Flask",
     percentage: "80%",
     icon: <SiFlask className="text-5xl text-designColor" />,
+  },
+  {
+    _id: 2009,
+    title: "Django",
+    percentage: "80%",
+    icon: <SiDjango className="text-5xl text-designColor" />,
   },
   {
     _id: 2010,
