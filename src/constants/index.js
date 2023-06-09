@@ -16,9 +16,12 @@ import {
   SiMysql,
   SiPostgresql,
   SiPostman,
-  SiDjango
+  SiDjango,
+  
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
+
+// 
 
 // python, nodejs, linux, html5, tailwindcss, reactjs, postgresql, mysql, flask, git, docker, kubernetes, aws, serverless framework, Figma
 // industry knowledge - agile,
@@ -121,6 +124,8 @@ export const skillsData = [
     percentage: "80%",
     icon: <SiDjango className="text-5xl text-designColor" />,
   },
+
+
   {
     _id: 2010,
     title: "Git",
