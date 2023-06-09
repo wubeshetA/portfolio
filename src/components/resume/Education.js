@@ -16,7 +16,7 @@ const Education = () => {
           <ResumeCard
             title="BSc(Hons) - Software Engineering"
             subTitle="The African Leadership University (Jan 2022 - Jun 2024)"
-            result="4.7/5"
+            result="4.81/5"
             des="The ALU Software Engineering is a three-year undergraduate degree that blend the technical education with leadership developement."
           />
 
