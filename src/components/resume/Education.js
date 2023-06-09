@@ -27,10 +27,10 @@ const Education = () => {
             des="Gained hands-on experience on cloud computing with AWS. I also learned the fundamentals DevOps."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Bahir Dar STEM Incubation center (2016 - 2020)"
-            result="90/100"
-            des="Completed my secondary education at a Science, Technology, Engineering & Math incubation center where I focus on Computer science and Math."
+            title="Fullstack Web Development"
+            subTitle="ALX (May - Sept 2022)"
+            result="Graduated"
+            des="I learned and gained hands-on experience on how to build a production-grade fullstack (backend heavy) web applications."
           />
         </div>
       </div>
