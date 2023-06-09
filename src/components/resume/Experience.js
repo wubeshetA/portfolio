@@ -15,10 +15,17 @@ const Experience = () => {
           {/* <h2 className="text-4xl font-bold">Job Experience</h2> */}
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
         <ResumeCard
-            title="Software Engineer Intern"
+            title="Software Engineer"
+            subTitle="Mobiklinic - (June 2023 - present)"
+            result="Uganda (Remote)"
+            des="Anticipated role focusing on the backend development (Django & GraphQL) of a mobile application that will be used to connect patients to doctors and create health litracy in Uganda."
+          />
+        <ResumeCard
+            title="Software Engineer"
             subTitle="SHEBA PLASTIC (May 2023 - Present)"
-            result="Rwanda (Hybrid)"
+            result="Rwanda (Remote)"
             des="Currently working on building a database and API for a conservation startup called SHEBA PLASTIC. I will also be responsible in building a smart bins that will connect with a mobile app and used to collect plastic waste in Rwanda."
           />
           <ResumeCard
@@ -27,13 +34,6 @@ const Experience = () => {
             result="Rwanda"
             des="Assisted Bridge2Rwanda scholars to improve their SAT results by 12% on average at ISOMO Bootcamp."
           />
-          <ResumeCard
-            title="BreakIntoTech club Mentor & committee"
-            subTitle="African Leadership University - (Jan 2023 - present)"
-            result="Rwanda"
-            des="Mentor and committee member for the BreakIntoTech club at ALU. The club aims to help students learn about the tech industry and prepare them for internships and jobs."
-          />
-          
         </div>
       </div>
 
