@@ -15,20 +15,20 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BSc(Hons) - Software Engineering"
-            subTitle="The African Leadership University (Jan 2022 - Jun 2024)"
+            subTitle="The African Leadership University (ALU)"
             result="4.81/5"
             des="The ALU Software Engineering is a three-year undergraduate degree that blend the technical education with leadership developement."
           />
 
           <ResumeCard
             title="Bootcamp - Cloud developer Nanodegree"
-            subTitle="Udacity (Dec 2022 - Mar 2023)"
+            subTitle="Udacity "
             result="Graduated"
             des="Gained hands-on experience on cloud computing with AWS. I also learned the fundamentals DevOps."
           />
           <ResumeCard
             title="Fullstack Web Development"
-            subTitle="ALX (May - Sept 2022)"
+            subTitle="ALX"
             result="Graduated"
             des="I learned and gained hands-on experience on how to build a production-grade fullstack (backend heavy) web applications."
           />

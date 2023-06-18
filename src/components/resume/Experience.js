@@ -17,10 +17,11 @@ const Experience = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
 
         <ResumeCard
-            title="Software Engineer"
+            title="Backend Developer"
             subTitle="Mobiklinic - (June 2023 - present)"
             result="Uganda (Remote)"
-            des="Anticipated role focusing on the backend development (Django & GraphQL) of a mobile application that will be used to connect patients to doctors and create health litracy in Uganda."
+            des="Working on the backend (Django & GraphQL) of a mobile application that will be used to connect patients to doctors and create health literacy in Uganda.
+            "
           />
         <ResumeCard
             title="Software Engineer"
