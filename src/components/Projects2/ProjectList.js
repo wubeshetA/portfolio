@@ -9,7 +9,7 @@ export const projectList = [
     live_link: "https://storefront-nsnsl.ondigitalocean.app/",
     github_link: "https://github.com/wubeshetA/storefront",
     description:
-      "This is a backend for an ecommerce application built with Django and Django Rest framework. It provides the necessary RESTful APIs with compressive documentation to interact with it. It has a user authentication, product, cart, order, user, review, searching & filtering and many more features. It also provide an Admin panel for admins to manage the customers, products, orders, etc. The frontend is under development - stay tuned :)",
+      "This is a backend for an ecommerce application built with Django and Django Rest framework. It provides the necessary RESTful APIs with comprehensive documentation to interact with it. It has a user authentication, product, cart, order, user, review, searching & filtering and many more features. It also provide an Admin panel for admins to manage the customers, products, orders, etc. The frontend is under development - stay tuned :)",
     tech: ["Python/Django", "Postgres", "DigitalOcean"],
   },
 
