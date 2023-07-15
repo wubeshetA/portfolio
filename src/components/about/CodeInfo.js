@@ -34,9 +34,9 @@ class Wubeshet(Asnka, Anegagrie):
                 self.learn()
                 self.practice()
                 self.repeat()
-            except:
-                self.fail()
+            except LifeBug:
+                return driver(self)
             finally:
-                self.learn_from_failure()
+                self.learn_from_life_bug()
                 self.relearn()
         `;
