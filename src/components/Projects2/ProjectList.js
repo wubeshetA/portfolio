@@ -1,5 +1,25 @@
-import { projectOne, projectThree, projectTwo, projectFour, Storefront } from "../../assets/index";
+import {
+  projectOne,
+  projectThree,
+  projectTwo,
+  projectFour,
+  Storefront,
+  SmartNote
+} from "../../assets/index";
 export const projectList = [
+  {
+    _id: 999,
+    title: "SmartNote",
+    img: SmartNote,
+    category: "Mobile App",
+    date: "October 2023",
+    live_link:
+      "https://drive.google.com/file/d/1C0nC6cs88PBjjGLED6-94ad3WTbITFb-/view?usp=sharing",
+    github_link: "https://github.com/wubeshetA/SmartNote",
+    description:
+      "SmartNote is Generative-AI powered companion that transforms audio content from classroom lecture, YouTube videos, online courses, and more into concise, understandable and interactive short notes. It also crafts customized questions with answers directly derived from the content, offering an enhanced learning experience for students.",
+    tech: ["Flutter", "GPT-3.5_turbo", "Firebase"],
+  },
   {
     _id: 1000,
     title: "StoreFront",
@@ -19,7 +39,8 @@ export const projectList = [
     img: projectTwo,
     category: "Fullstack development",
     date: "Mar - Apr 2023",
-    live_link: "https://drive.google.com/file/d/1D914g0HxjDLMQM0KmBGRbfIxjBf69rZj/view?usp=share_link",
+    live_link:
+      "https://drive.google.com/file/d/1D914g0HxjDLMQM0KmBGRbfIxjBf69rZj/view?usp=share_link",
     github_link: "https://github.com/ALU-Opportunity-Board/opportunity-board",
     description:
       "ALU opportunities board is a platform that allows  African Leadership University students and staff to post opportunities they have come across. It also allows students to view opprotunities posted by other students. It has google authentication which allows ALU students to access the platform.",
@@ -30,7 +51,7 @@ export const projectList = [
     _id: 1002,
     title: "AirBnB clone",
     img: projectOne,
-    category: "Backend Developement",
+    category: "Backend Cloning",
     date: "Feb - Apr 2023",
     live_link: "",
     github_link: "https://github.com/wubeshetA/alu-AirBnB_clone_V3",
@@ -38,8 +59,6 @@ export const projectList = [
       "This project is a replica of how the backend of AirBnb might looks like. It provides an adminstrative console to manage the backend and database for a website like AirBnb. Currently the frontend is under development which will allow users to create an account, login, logout, create a new place, update a place, delete a place, view all places, places by city, etc.",
     tech: ["Python", "Flask", "MySql"],
   },
-
-
 
   {
     _id: 1003,
